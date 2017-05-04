@@ -1,0 +1,6 @@
+<p i18n>Hello World!</p>
+<span i18n>Select Language:</span>
+<select (ngModelChange)="changeLocale($event)" [(ngModel)]="locale">
+  <option value="US">English</option>
+  <option value="TW">中文</option>
+</select>
