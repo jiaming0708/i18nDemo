@@ -10,9 +10,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "i18n": "ng-xi18n",
-    "build:all": "concurrently \"npm run build:us\" \"npm run build:tw\"",
-    "build:us": "npm run build -- --outputPath dist/us -bh /us --i18nFile src/i18n/messages.US.xlf --locale US",
-    "build:tw": "npm run build -- --outputPath dist/tw -bh /tw --i18nFile src/i18n/messages.TW.xlf --locale TW",
+    "build:us": "npm run build -- --outputPath dist/us -bh /us --i18nFile src/locale/messages.US.xlf --locale US",
+    "build:tw": "npm run build -- --outputPath dist/tw -bh /tw --i18nFile src/locale/messages.TW.xlf --locale TW",
     "ngc": "./node_modules/.bin/ngc"
   },
   "private": true,
