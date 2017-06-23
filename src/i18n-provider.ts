@@ -48,7 +48,7 @@ export function getTranslationProviders(): Promise<CompilerOptions[]> {
     return Promise.resolve(PROVIDERS);
   }
 
-  return getTranslationsWithSystemJs(locale)
+  return System.import(`raw-loader!./locale/messages.${locale}.xlf`)
       .then(
           (translations: string) =>
               [{provide: TRANSLATIONS, useValue: translations},

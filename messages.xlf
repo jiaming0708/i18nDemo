@@ -3,27 +3,34 @@
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="5816217f424111ae4c91dd72ee1db0ae252763b5" datatype="html">
-        <source>Hello World!</source>
+        <source>Hello</source>
         <target>世界你好</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9510114041afaf5b0122172dc47223e9fecab54c" datatype="html">
         <source>Select Language:</source>
-        <target>選擇語言:</target>
+        <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
       <trans-unit id="dbf6d8d252ed646bcbf7453161f13804c5b7e38d" datatype="html">
         <source>Hello <x id="INTERPOLATION"/></source>
-        <target><x id="INTERPOLATION"/> 你好!</target>
+        <target/>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="sourcefile">src/app/app.component.ts</context>
           <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="customid" datatype="html">
+        <target>多國語系</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">9</context>
         </context-group>
       </trans-unit>
     </body>
