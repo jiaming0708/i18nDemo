@@ -8,9 +8,11 @@ import {getLang} from 'i18n-provider';
 })
 export class AppComponent {
   locale: string;
+  world: string;
 
   constructor(@Inject(LOCALE_ID) localeID: string) {
     this.locale = localeID.match(/^(us|tw)$/) ? localeID : getLang();
+    this.world = 'jimmy';
   }
 
   changeLocale(event: string) {
